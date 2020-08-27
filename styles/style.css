@@ -36,6 +36,7 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  overflow-x:hidden;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -709,16 +710,21 @@ a:hover {
     width: 100vw;
     overflow-x: hidden;
   }
+  header{
+    width:100vw;
+    overflow-x:hidden;
+  }
   .menu {
     right: 0;
     margin-right: 0;
     top: 10vh;
     position: absolute;
-    width: 60vw;
+    width: 0px !important;
     height: 100vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    overflow-x:hidden;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -734,8 +740,8 @@ a:hover {
             transform: translateX(100%);
     -webkit-transition: -webkit-transform .5s ease-in;
     transition: -webkit-transform .5s ease-in;
-    transition: transform .5s ease-in;
-    transition: transform .5s ease-in, -webkit-transform .5s ease-in;
+    transition:all .5s ease-in;
+    transition: all .5s ease-in, -webkit-transform .5s ease-in;
   }
   .menu li {
     opacity: 0;
@@ -746,6 +752,7 @@ a:hover {
   .nav-active {
     -webkit-transform: translateX(0%);
             transform: translateX(0%);
+    width:60vw !important;
   }
   @-webkit-keyframes navLinkFade {
     from {
