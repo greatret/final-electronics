@@ -719,7 +719,7 @@ a:hover {
     margin-right: 0;
     top: 10vh;
     position: absolute;
-    width: 0vw;
+    width: 0px;
     height: 100vh;
     display: -webkit-box;
     display: -ms-flexbox;
