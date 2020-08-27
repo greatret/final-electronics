@@ -710,6 +710,10 @@ a:hover {
     width: 100vw;
     overflow-x: hidden;
   }
+  header{
+    width:100vw;
+    overflow-x:hidden;
+  }
   .menu {
     right: 0;
     margin-right: 0;
