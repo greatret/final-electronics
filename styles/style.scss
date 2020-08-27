@@ -23,6 +23,11 @@ html {
     height: -webkit-fill-available;
 }
 
+.outermostcontainer {
+    width: 100vw;
+    overflow-x: hidden !important;
+}
+
 .carousel-caption h1 {
     overflow: hidden;
 }
@@ -578,9 +583,19 @@ a {
 
 
 @media only screen and (max-width:450px) {
+
+
     body {
+        position: absolute;
         width: 100vw;
         overflow-x: hidden;
+    }
+
+    .outermostcontainer {
+        width: 100vw;
+        position: absolute;
+        overflow: hidden !important;
+        overflow-x: hidden !important;
     }
 
     .menu {
