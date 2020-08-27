@@ -752,7 +752,7 @@ a:hover {
   .nav-active {
     -webkit-transform: translateX(0%);
             transform: translateX(0%);
-    width:60vw;
+    width:60vw !important;
   }
   @-webkit-keyframes navLinkFade {
     from {
