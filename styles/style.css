@@ -719,7 +719,7 @@ a:hover {
     margin-right: 0;
     top: 10vh;
     position: absolute;
-    width: 0px !important;
+    width: 60%;
     height: 100vh;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -752,7 +752,7 @@ a:hover {
   .nav-active {
     -webkit-transform: translateX(0%);
             transform: translateX(0%);
-    width:60vw !important;
+   
   }
   @-webkit-keyframes navLinkFade {
     from {
